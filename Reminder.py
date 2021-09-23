@@ -16,7 +16,7 @@ __all__ = []
 
 class Reminder:
     def __init__(self,
-                 alert_time: str, routine: list = [now().strftime("%A")],  # TODO create the routine paramaer wich stores the alert routine
+                 alert_time: str, routine: list = [now().strftime("%A")],
                  name: str = "", color:str = "BLACK",
                  ringtone: str = "ringtone 1", volume: float = 0.030,
                  snooze: bool = True, snooze_delay: str = None,
